@@ -1,0 +1,51 @@
+/* Page layout */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #611447;
+}
+
+/* Container */
+div {
+  text-align: center;
+}
+
+/* Card container layout */
+div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Student card */
+.student-card {
+  width: 280px;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.student-card:hover {
+  transform: translateY(-5px);
+  background-color: #eaf3ff;
+}
+
+/* Name */
+.student-card h3 {
+  margin: 0;
+  color: #333;
+}
+
+/* Course */
+.student-card p {
+  margin: 5px 0 0;
+  color: #777;
+}
+.student-card title{
+  font-size: 100px;
+}
